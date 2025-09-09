@@ -40,6 +40,7 @@
     home = "/home/marvin";
     createHome = true;
     extraGroups = [ "networkmanager" "wheel" "docker" ];
+    initialHashedPassword = ""; #ABÄNDERN
   };
 
   security.sudo = {
