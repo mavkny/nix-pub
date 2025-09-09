@@ -5,7 +5,6 @@
     configFile = "/etc/wireguard/nordlynx.conf";
     autostart = true;
   };
-
   services.resolved.enable = true;
   networking.networkmanager.enable = true;
   networking.networkmanager.dns = "systemd-resolved";

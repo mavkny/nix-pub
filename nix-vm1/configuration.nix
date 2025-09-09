@@ -7,6 +7,8 @@
     ./modules/docker.nix
     ./modules/rust.nix
     ./modules/bash.nix
+    ./modules/nvpn.nix
+
   ];
 
   # Bootloader (UEFI)
