@@ -5,7 +5,7 @@
     ./hardware-configuration.nix
     ./modules/apps.nix
     ./modules/docker.nix
-    ./modules/programs/rust.nix
+    ./modules/rust.nix
     ./modules/bash.nix
   ];
 
