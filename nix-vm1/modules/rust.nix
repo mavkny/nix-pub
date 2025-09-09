@@ -8,7 +8,5 @@
     rustfmt
     clippy
     pkg-config
-    openssl   # inkl. -dev Headers in NixOS
   ];
-
 }

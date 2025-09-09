@@ -8,7 +8,7 @@
     ./modules/rust.nix
     ./modules/bash.nix
     ./modules/nvpn.nix
-  ];
+];
 
   # Bootloader (UEFI)
   boot.loader.systemd-boot.enable = true;
@@ -41,7 +41,6 @@
     home = "/home/marvin";
     createHome = true;
     extraGroups = [ "networkmanager" "wheel" "docker" ];
-    initialHashedPassword = ""; #ABÄNDERN
   };
 
   security.sudo = {
